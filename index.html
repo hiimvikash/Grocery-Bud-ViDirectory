@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f1c12e" />
+    <title>Vikash Directory</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="favicon.ico" />
+  </head>
+  <body>
+    <nav>
+      <h1>ViDirectory <i class="fas fa-clipboard-list"></i></h1>
+      <ul class="social-icons">
+        <li>
+          <a
+            href="https://www.facebook.com/profile.php?id=100007277650547"
+            target="_blank"
+          >
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/heyimvikash_here" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com/heyiamvikash" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/heyimvikash/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <section class="section-center">
+      <form class="grocery-form">
+        <p class="alert"></p>
+        <h3>grocery bud</h3>
+
+        <div class="form-control">
+          <input
+            type="text"
+            id="grocery"
+            placeholder="e.g. paneer"
+            autocomplete="off"
+          />
+          <button type="submit" class="submit-btn">submit</button>
+        </div>
+      </form>
+      <!-- list -->
+      <div class="grocery-container">
+        <div class="grocery-list">
+          <!-- first grocery item -->
+          <!-- <article class="grocery-item">
+                <p class="title">item</p>
+                <div class="btn-container">
+                  <button type="button" class="edit-btn"><i class="fas fa-edit"></i></button>
+                  <button type="button" class="delete-btn"><i class="fas fa-trash"></i></button>
+                </div>
+              </article> -->
+          <!-- end of first grocery item -->
+        </div>
+
+        <!-- button -->
+        <button type="button" class="clear-btn">clear items</button>
+      </div>
+    </section>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
