@@ -1,2 +1,2 @@
 # Grocery-Bud-ViDirectory
-Will soon update this repository with proper README.
+This repository will be updated soon with proper README.
